@@ -28,12 +28,6 @@
 
 <div class="footer-parent">
   <div class="footer rounded">
-      %for toolbar in thing.nav:
-      <div class="col">
-        ${toolbar}
-      </div>
-      %endfor
-
     <p class="bottommenu">
       ${text_with_links(
               _("Use of this site constitutes acceptance of our "
@@ -42,8 +36,7 @@
                          "http://reddit.com/help/useragreement"), 
         privacy_policy = (_("Privacy Policy {Genitive}"), 
                           "http://reddit.com/help/privacypolicy"))}.  
-      ${_("(c) %(year)d Conde Nast Digital. All rights reserved.") % \
-      dict(year=datetime.datetime.now().timetuple()[0])}
+        | Powered by <a href="http://reddit.com">Reddit</a>
     </p>
   </div>
 </div>
