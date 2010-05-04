@@ -115,11 +115,9 @@ ul.flat-vert {text-align: left;}
 .pref { font-weight: bold; }
 
 #header {
-
-    border-bottom: 1px solid #5f99cf;
-
+    border-bottom: 1px solid grey;
     position: relative;
-    background-color: #cee3f8;
+    background-color: black;
     z-index: 99;
 }
 
@@ -3058,4 +3056,3 @@ a.ip:hover {
 .lined-table th {
   font-weight: bold;
 }
-
