@@ -34,16 +34,16 @@ input[type=hidden] { position: absolute; }
 
 /* html element defaults */
 
-h1 { font-size: 18px; font-weight: normal; margin: 10px 0 }
+h1 { color:#EB3B3B; font-size: 18px; font-weight: normal; margin: 10px 0 }
 
-h2 { color: #369; font-size: 13px; }
+h2 { color: #3E7AB4; font-size: 13px; }
 h2 a { text-decoration: none }
-h2 a:visited { color: #369 }
+h2 a:visited { color: #3E7AB4 }
 h2 a:hover { text-decoration: underline }
 h3 { font-size:110%; /*text-transform:uppercase;*/ }
 
 a img { border: 0 none; }
-a { text-decoration: none; color: #369; }
+a { text-decoration: none; color: #3E7AB4; }
 
 /*
 a:active { border: 0 none;}
@@ -66,7 +66,7 @@ div.autosize > div { display: table-cell; }
 
 input.txt {
     background-color:#f7f7f7;
-    border: 1px solid #369; 
+    border: 1px solid #3E7AB4; 
 }
 
 input[type=checkbox], input[type=radio] { margin-top: .4em; }
@@ -96,7 +96,7 @@ input[type=checkbox], input[type=radio] { margin-top: .4em; }
 .flat-list {list-style-type: none; display: inline;}
 .flat-list li {display: inline; }
 .flat-list form {display: inline; }
-.flat-list .selected a { color: orangered; }
+.flat-list .selected a { color: #EB3B3B; }
 
 ul.flat-vert {text-align: left;}
 .flat-vert .separator { margin: 0 }
@@ -109,19 +109,19 @@ ul.flat-vert {text-align: left;}
     margin-bottom: 5px;
  }
 
-.separator { color: gray; margin: 0px .7ex 0px .7ex}
+.separator { color: #fff; margin: 0px .7ex 0px .7ex}
 
 .pref-lang { font-weight: bold; }
 .pref { font-weight: bold; }
 
 #header {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #e31414;
     position: relative;
-    background-color: black;
+    background-color: #fff;
     z-index: 99;
 }
 
-#header-img {margin-top: 2px; margin-right: 5px;}
+#header-img {margin-top: 5px; margin-right: 5px; margin-left: 5px}
 
 #header-top {
     position: absolute;
@@ -136,14 +136,14 @@ ul.flat-vert {text-align: left;}
     position: absolute;
     right: 0px;
     bottom: 0px;
-    background-color: #EFF7FF;
+    background-color: #DEE6FE;
     padding: 4px;
     -moz-border-radius-topleft: 7px;
     -webkit-border-top-left-radius: 7px;
  }
 
 #mail img {position: relative; top: 2px}
-.user {color: gray;}
+.user {color: #1F6391;}
 
 
 .pagename {
@@ -152,8 +152,9 @@ ul.flat-vert {text-align: left;}
     font-variant: small-caps;
     line-height: 100%;
     font-size: 1.2em;
+	color: #1F6391;
 }
-.pagename a {color: black; }
+.pagename a {color: #1F6391; }
 .redditname { }
 
 .newpagelink {
@@ -224,12 +225,12 @@ ul.flat-vert {text-align: left;}
     margin-left: 3px;
     border: 1px solid #5f99cf;
     border-bottom: none;
-    color: orangered;
+    color: #EB3B3B;
 }
 
 .dropdown.tabdrop .selected.title {
     background-color: #eff7ff;
-    color: #369;
+    color: #EB3B3B;
     padding-bottom: 0;
     border:none;
 }
@@ -250,20 +251,20 @@ ul.flat-vert {text-align: left;}
 
 .tabmenu li a {
     padding: 2px 6px 0 6px;
-    background-color: #eff7ff;
+    background-color: #dee6fe;
  }
 
 .tabmenu li.selected a{
-    color: orangered;
-    background-color: white;
-    border: 1px solid #5f99cf;
+    color: #EB3B3B;
+    background-color: #FFFFFF;
+    border: 1px solid #e31414;
     border-bottom: 1px solid white;
     z-index: 100;
 }
 
 
 #search input[type=text] {
-    border: 1px solid gray;
+    border: 1px dotted #adc8e0;
     font-size: 18px;
     width: 295px;
     padding: 2px;
@@ -369,7 +370,7 @@ ul.flat-vert {text-align: left;}
 
 .sidebox .subtitle {
     margin-left: 10px;
-    color: dimgray;
+    color: #1f6391;
     font-size: 110%;
 }
 
@@ -465,8 +466,8 @@ ul.flat-vert {text-align: left;}
 
 .tagline { color:#888; font-size:x-small; 
 }
-.tagline a {color: #369; text-decoration: none; }
-.tagline .friend    { color: orangered }
+.tagline a {color: #1f6391; text-decoration: none; }
+.tagline .friend    { color: #AD0900 }
 .tagline .submitter { color: #0055df }
 .tagline .moderator { color: #228822 }
 .tagline .admin { color: #ff0011; }
@@ -487,8 +488,8 @@ ul.flat-vert {text-align: left;}
 .thing .title:visited { color: #551a8b }
 .thing .title.click { color: #551a8b } 
 
-.thing .title.loggedin { color: blue }
-.thing .title.loggedin:visited { color: #551a8b }
+.thing .title.loggedin { color: #e3160b }
+.thing .title.loggedin:visited { color: #4276cf }
 .thing .title.loggedin.click { color: #551a8b } 
 .thing .title.loggedin.click:visited { color: #551a8b }
 
@@ -528,7 +529,7 @@ ul.flat-vert {text-align: left;}
 
 /* organic listing */
 .organic-listing {
-    border: solid 1px gray;
+    border: dotted 1px #e31414;
     padding: 0;
     overflow: hidden; 
     position: relative;
@@ -536,7 +537,7 @@ ul.flat-vert {text-align: left;}
 }
 
 .organic-listing .link {
-    background-color: #F8F8F8; 
+    background-color: #FFF; 
 }
 .organic-listing .link,
 .organic-listing .link.promotedlink {
@@ -634,11 +635,12 @@ ul.flat-vert {text-align: left;}
 }
 
 .infobar {
-    background-color: #f6e69f;
+    background-color: #fff;
     padding: 5px 10px;
     margin: 5px 305px 5px 0px;
-    border: 1px solid orange;
+    border: 1px solid #dee6fe;
     font-size: small;
+	color: #1f6391;
 }
 
 .infobar img {
@@ -715,7 +717,7 @@ a.star { text-decoration: none; color: #ff8b60 }
 .toggle .option.active { display: inline; }
 
 .thing .stub { display: none; }
-.link.last-clicked { border: 1px dashed gray; }
+.link.last-clicked { border: 1px dashed #adc8e0; }
 
 .link { margin: 0; margin-bottom: 8px; padding-left: 3px; }
 .link .score {text-align: center; color: #c6c6c6;}
@@ -853,7 +855,7 @@ textarea.gray { color: gray; }
 }
 .message .child { margin-left: 15px;  }
 
-.message .head.new {color:orangered  }
+.message .head.new {color:#EB3B3B  }
 .message .subject { font-weight: bold; font-size: larger; }
 
 .clippy img {
@@ -969,7 +971,7 @@ textarea.gray { color: gray; }
     font-size: larger;
     padding: 5px;
     margin: 15px;
-    border:1px solid #F0F0F0;
+    border:1px solid #adc8e0;
     display: inline-block;
 }
 
@@ -1060,7 +1062,7 @@ textarea.gray { color: gray; }
 
 /* login form */
 
-.orangered { color: orangered; }
+.orangered { color: #EB3B3B; }
 
 .logout { display: inline; }
 .login-form-side {
@@ -1305,7 +1307,7 @@ textarea.gray { color: gray; }
     color: red;
 }
 .vote-up {
-    color: orangered;
+    color: #C90A00;
 }
 .vote-down {
     color: #336699;
@@ -1316,8 +1318,8 @@ textarea.gray { color: gray; }
 }
 
 
-.bottommenu { color: gray; font-size: smaller; clear: both}
-.bottommenu a { color: gray; text-decoration: underline;   }
+.bottommenu { color: #1f6391; font-size: smaller; clear: both}
+.bottommenu a { color: #3e7ab4; text-decoration: underline;   }
 
 
 /* Buttons specific */
@@ -1554,7 +1556,7 @@ textarea.gray { color: gray; }
 
 .toolbar .clickable:active, .pushed-button {
     background-color: #cee3f8 !important;
-    color: orangered !important;
+    color: #EB3B3B !important;
 }
 
 .toolbar a img, toolbar b img {
@@ -1580,7 +1582,7 @@ textarea.gray { color: gray; }
     overflow: hidden;
 }
 .toolbar .title:active {
-    color: orangered;
+    color: #EB3B3B;
 }
 .toolbar .controls {
     float: right;
@@ -1742,12 +1744,13 @@ form input[type=radio] {margin: 2px .5em 0 0; }
     vertical-align: top;
     text-align: right;
     white-space: nowrap;
+	color: #1f6391;
 }
 .preftable th label { display: block; }
 .sharetable.preftable th label { display: inline; }
 .preftable th span { display: block; }
 
-.preftable td.prefright { padding: 8px 0;}
+.preftable td.prefright { padding: 8px 0; color: #3e7ab4}
 
 .preftable .spacer { margin-bottom: 5px; }
 .preftable .note { width: 100%; vertical-align: top; padding-top: 10px; }
@@ -1759,7 +1762,7 @@ form input[type=radio] {margin: 2px .5em 0 0; }
 .spam { background-color: #FA8072 }
 
 .little { font-size: smaller  }
-.gray { color: gray }
+.gray { color: #adc8e0 }
 
 /* stats page */
 
@@ -1959,16 +1962,16 @@ ul#image-preview-list .description pre {
 
 #sr-header-area {
     padding: 3px 0px 3px 5px;
-    background-color: #f0f0f0;
+    background-color: #3e7ab4;
     white-space: nowrap;
     overflow: hidden;
     text-transform: uppercase;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #ffffff;
     font-size: 90%;
  }
 
 #sr-header-area .selected a {
-    color: orangered;
+    color: #99bbdd;
 }
 
 .dropdown.srdrop .selected {
@@ -1998,12 +2001,12 @@ ul#image-preview-list .description pre {
     border-top: 1px dotted #369;
 }
 
-#sr-bar .separator {color: gray; }
-#sr-bar a {color: black;} 
+#sr-bar .separator {color: #ffffff; }
+#sr-bar a {color: #ffffff;} 
 
 #sr-more-link {
-    color: black;
-    background-color: #f0f0f0;
+    color: #1f6391;
+    background-color: #ffffff;
     position: absolute;
     right: 0px;
     top: 3px;
@@ -2145,8 +2148,9 @@ ul#image-preview-list .description pre {
 
 .formtabs-content {
     width: 520px;
-    border-top: 4px solid #5f99cf;
+    border-top: 4px solid #3e7ab4;
     padding-top: 10px;
+	color: #3e7ab4;
  }
 
 .formtabs-content .infobar {
@@ -2162,6 +2166,7 @@ ul.tabmenu.formtab {
 
 .tabmenu.formtab li {
     margin: 0;
+	color: #3e7ab4
  }
 
 .tabmenu.formtab a {
@@ -2170,14 +2175,14 @@ ul.tabmenu.formtab {
     padding: 0px 12px;
     vertical-align: bottom;
 
-    border: 1px solid #c1c1c1;
+    border: 1px solid #fff;
     border-bottom: none;
 }
 
 .tabmenu.formtab .selected a {
     color:white;
     font-size: 130%;
-    background-color: #5f99cf;
+    background-color: #3e7ab4;
     border: none;
 }
 
@@ -2313,7 +2318,7 @@ ul.tabmenu.formtab {
 /*** roundfield stuff *******/
 .roundfield {
     width: 500px;
-    background-color: #cee3f8;
+    background-color: #dee6fe;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     padding: 5px 10px 10px 10px;
@@ -2340,7 +2345,8 @@ ul.tabmenu.formtab {
     width: 492px;
     padding: 3px;
     margin: 0;
-    border: 1px solid gray;
+    border: 1px solid #cfcfcf;
+	color: #1f6391;
 }
 
 .roundfield.captcha .capimage {
@@ -2943,14 +2949,14 @@ dd { margin-left: 20px;  }
 .sidecontentbox .content {
     margin: 0;
     padding: 5px;
-    border: 1px solid gray;
+    border: 1px solid #adc8e0;
     font-size: larger;
 }
 
 .sidecontentbox h1 {
     text-transform:uppercase;
     margin: 0;
-    color: gray;
+    color: #1f6391;
     font-size: 130%;
 }
 
@@ -3022,7 +3028,7 @@ dd { margin-left: 20px;  }
  }
 
 
-.linkinfo .upvotes {font-size: 80%; color: orangered;}
+.linkinfo .upvotes {font-size: 80%; color: #EB3B3B;}
 .linkinfo .downvotes {font-size: 80%; color: #5f99cf; }
 
 .linkinfo table {margin-top: 5px;}
@@ -3042,8 +3048,8 @@ a.ip {
 
 a.ip:hover {
     text-decoration: none;
-    color: orangered;
-    border: solid 1px orangered;
+    color: #EB3B3B;
+    border: solid 1px #EB3B3B;
 }
 
 .lined-table, .lined-table th, .lined-table td {
